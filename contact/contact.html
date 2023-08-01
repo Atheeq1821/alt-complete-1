@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <nav class="nav">
+        <input type="checkbox" id="check">
+        <div class="left">
+            <div class="title"><a href="../index.html" ><img src="images/ALT logo white.png" alt="Alt Logo"></a></div>
+        </div>
+        <div class="right">
+         
+            <label for="check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        <div class="links">
+            <a href="../index.html" id="first">Home</a>
+            <a href="../about Us/about.html">About Us</a>
+            <a href="../portfolio/portfolio.html">Gallery</a>
+            <a href="#">Contact Us</a>
+            <a onclick="copyClipboard()" id="phone">+91 91762 66062</a>
+        </div>
+    </nav>
+    <section class="contact">
+        <div class="contact-title">
+            <h1 onclick="clicky()">Contact Us</h1>
+            <div class="queries">Any question or remarks? Just write us a message!</div>
+        </div>
+    </section>
+    <img class="blue-ball1" src="images/Ellipse 796.png" alt="">
+    <img class="blue-ball2" src="images/Ellipse 796.png" alt="">
+    <img class="blue-ball3" src="images/Ellipse 796.png" alt="">
+    <div class="contact-page-big">
+        <div class="page-child-1">
+            <div class="inner0-child1">
+                <h2>Contact Information</h2>
+                <div class="say-something">Say something to start a live chat!</div>
+            </div>
+            <div class="inner1-child1">
+                <div class="call"><div class="i-div"><i class="fa fa-phone" id="phone"></i></div ><div class="i-content">9080257430</div></div>
+                <div class="mail"><i class="fa fa-envelope"></i> altcreativespace2022@gmail.com</div>
+                <div class="location"><i class="fa fa-map-marker"></i> No.62/39, Malayappan Street, Mannady, Chennai - 01</div>
+            </div>
+            <div class="social-child1">
+                <div class="social-icon" id="insta"><i class="fa fa-instagram"></i></div>
+                <div class="social-icon" id="linkin"><i class="fa fa-linkedin"></i></div>
+                <div class="social-icon" id="fb"><i class="fa fa-facebook-f"></i></div>
+            </div>
+        </div>
+        <div class="page-child-2">
+            <div class="form-title">Reach Us <span class="form-type"></span></div>
+                <div class="form-row">
+                    <div class="form-group">
+                       
+                        <input type="text" id="fname" class="text-inp">
+                        <label for="fname" class="form-label">First Name</label>
+                    </div>
+                <div class="form-group">
+                       
+                        <input type="text" id="lname" class="text-inp">
+                        <label for="lname" class="form-label">Last Name</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                       
+                        <input type="email" id="mail" class="text-inp">
+                        <label for="mail" class="form-label">Email</label>
+                    </div>
+                <div class="form-group">
+                       
+                        <input type="tel" id="call" class="text-inp">
+                        <label for="call" class="form-label">Phone Number</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group ">
+                        
+                        <textarea id="textarea" rows="10" cols="10" placeholder="Enter your message here.." class="message-inp"></textarea>
+                        <label for="textarea" class="message-label">Message</label>
+                    </div>
+                </div>
+                <div class="btnclass">
+                    <button type="submit" onclick="sendMail()">
+                    <svg viewBox="0 0 1400 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="paperPlaneRoute" d="M563.558,526.618 C638.854,410.19 787.84,243.065 916.53,334.949 1041.712,424.328 858.791,877.927 743.926,856.655 642.241,838.669 699.637,688.664 700,540" stroke="white"  stroke-width="3" style="stroke-dashoffset: 0.001px; stroke-dasharray: 0px, 999999px;"/>
+                        <g id="rectSent" clip-path="url(#clipPath)">
+                          <g id="rectSentItems">
+                            <rect id="sentBase" x="460" y="468.5" width="480" height="143" rx="23" fill="white"/>
+                            <text id="txtSent" fill="#4F67ED" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="82" font-weight="bold" letter-spacing="0.025em"><tspan x="637.487" y="568.027">Sent!</tspan></text>
+                          </g>
+                        </g>
+                        <g id="base">
+                          <g filter="url(#flShadow)"><rect id="btnBase" x="418.117" y="460.55" width="563.765" height="158.899" rx="27" fill="#F1F3FF" /></g>
+                            <text id="txtSend" fill="#291D89" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="82" font-weight="bold" letter-spacing="0.06em"><tspan x="679.379" y="568.027">Send</tspan></text>
+                            <g id="paperPlane" style="transform-origin: 0px 0px 0px;" data-svg-origin="563.55859375 527.734375" transform="matrix(0.8396,0.5432,-0.5432,0.8396,377.09924,-222.6639)">
+                            <path id="paperPlanePath" d="M560.611 481.384C562.003 479.263 565.113 479.263 566.505 481.384L607.063 543.177C615.657 556.272 607.507 573.375 592.766 575.676L566.422 557.462V510.018C566.422 508.436 565.14 507.154 563.558 507.154C561.976 507.154 560.693 508.436 560.693 510.018V557.462L534.349 575.676C519.609 573.375 511.459 556.272 520.053 543.177L560.611 481.384Z" fill="#4F67EB"/>
+                          </g>
+                        </g>
+                        <circle id="cBottom" cx="700" cy="540" r="97.516" fill="#C23F3F"  class="hidden"/>
+                        <circle id="cTop" cx="700" cy="502.365" r="107.898" fill="#C23F3F" class="hidden"/>
+                        <circle id="cCenter" cx="700" cy="540" r="123" fill="#A74C4C" class="hidden" />
+                        <circle id="cEnd" cx="495" cy="540" r="98" fill="#F1F3FF" class="hidden"/>
+                        <path id="tickMark" fill-rule="evenodd" clip-rule="evenodd" d="M597.3 489.026C595.179 487.257 592.026 487.541 590.257 489.662L550.954 536.768L534.647 522.965C532.539 521.181 529.384 521.444 527.6 523.551L519.096 533.598C517.312 535.706 517.575 538.861 519.682 540.645L538.606 556.662C538.893 557.162 539.272 557.621 539.74 558.012L549.847 566.445C551.967 568.214 555.12 567.929 556.889 565.809L608.042 504.501C609.811 502.38 609.527 499.227 607.406 497.458L597.3 489.026Z" fill="#4E67E8" class="hidden"/>
+                        <defs>
+                          <clipPath id="clipPath">
+                            <rect id="mask1" x="700" y="450" width="520" height="180" fill="white" id="clipRect"/>
+                          </clipPath>
+                          <filter id="flShadow" x="0" y="0" width="1000" height="1000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                            <feOffset dx="4" dy="4"/>
+                            <feGaussianBlur stdDeviation="3.5"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.5125 0 0 0 0 0.420677 0 0 0 0 0.420677 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+                          </filter>
+                        </defs>
+                        </svg>
+                        </button>
+                </div>
+        </div>
+     
+    </div>
+    <footer>
+       
+        <div class="footer-logo"><img src="images/ALT logo black.png" alt=""></div>
+<div class="footer-container">
+    <div class="footer-menu">
+        <div class="footer-tit"><a>Menu</a></div>
+        <div class="footer-options"><a href="../index.html">Home</a></div>
+        <div class="footer-options"><a href="../portfolio/portfolio.html">Gallery</a></div>
+        <div class="footer-options"><a href="../about Us/about.html">About us</a></div>
+        <div class="footer-options"><a href="#">Contact us</a></div>
+    </div>
+    <div class="footer-services">
+        <div class="footer-tit"><a>Services</a></div>
+        <div class="footer-options"><a href="../portfolio/portfolio.html">Graphic Design</a></div>
+        <div class="footer-options"><a href="../portfolio/portfolio.html">Social Media Marketing</a></div>
+        <div class="footer-options"><a href="../portfolio/portfolio.html">Illustrations</a></div>
+    </div>
+    <div class="footer-contact">
+        <div class="footer-tit"><a>Contact</a></div>
+        <div class="footer-options">altcreativespace2022@gmail.com</div>
+        <div class="footer-options">+91 91762 66062</div>
+    </div>
+    <div class="footer-foll">
+        <div class="footer-tit"><a>Follow Us </a></div>
+        <div class="footer-follow">
+            <div class="footer-options"><a>Instagram</a></div>
+            <div class="footer-options"><a>LinkedIn</a></div>
+            <div class="footer-options"><a>Facebook</a></div>
+            <div class="footer-options"><a>twitter</a> </div>
+        </div>
+    </div>
+</div>
+</footer>
+</body>
+
+<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+<script src="https://assets.codepen.io/16327/MorphSVGPlugin3.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/MotionPathPlugin.min.js"></script>
+<script src="https://assets.codepen.io/16327/DrawSVGPlugin3.min.js"></script>
+<script src="contact.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    let typed = new Typed('.form-type', {
+     strings: ['Now!'],
+     typeSpeed: 150,
+     backSpeed: 100,
+     loop:true
+   });
+
+</script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</html>
